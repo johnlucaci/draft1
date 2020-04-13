@@ -1,0 +1,130 @@
+body{
+    background-color: black;
+    font-family: cursive;
+}
+
+#welcomeContent{
+    margin-top: 18%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+
+.imageHover:hover{
+    filter: invert(1);
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1%;
+    width: 100%;
+    height: 6%;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 12px;
+    text-align: left;
+}
+
+footer a{
+    float: right;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*===========================================================================*/
+
+nav{
+    font-family: cursive;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding-left: 39px;
+    padding-right: 39px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav li:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    padding-top: 20px;
+    padding-bottom: 19px;
+    float: right;
+}
+
+/*==========================================================================*/
+
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}

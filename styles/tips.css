@@ -1,0 +1,89 @@
+body{
+    background-image: url(../images/jungle.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: cursive;
+    color: white;
+    height: 200%;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    padding: 1%;
+    width: 100%;
+    height: 4%;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 12px;
+    text-align: left;
+}
+
+footer a{
+    float: right;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav{
+    font-family: cursive;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding-left: 39px;
+    padding-right: 39px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav li:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    padding-top: 20px;
+    padding-bottom: 19px;
+    float: right;
+}
+
+.backtotop{
+    filter: invert(1);
+    margin: 1%;
+    margin-left: 95%;
+}
+
+.tipssection{
+    padding: .5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.col_detail {
+	column-count: 2;
+	column-rule: 1px solid white;
+	column-gap: 10%;
+    padding: 5%;
+}
